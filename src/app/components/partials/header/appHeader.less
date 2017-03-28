@@ -1,0 +1,19 @@
+@import "~stylesheets/vars";
+
+header {
+	cursor: pointer;
+	height: 100px;
+	background: url('~assets/images/logo_white.png') no-repeat left center @blue;
+	background-size: 150px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	color: #fff;
+	padding-right: 50px;
+	&.different {
+		color: #000;
+		background-color: #d7efff;
+		border-bottom: 1px #ddd solid;
+		background-image: url('~assets/images/logo_blue.png');
+	}
+}
